@@ -698,8 +698,9 @@ strong {
    SHARED SECTION HEADING
    ═══════════════════════════════════════════════════════════════════════════ */
 .section-title {
-    font-size: clamp(2rem, 4.8vw, 3.4rem);
-    margin-bottom: clamp(2rem, 4vw, 3.5rem);
+    font-size: clamp(2rem, 3.5vw, 2.8rem);
+    line-height: 1.1;
+    margin-bottom: 1.25rem;
 }
 
 /* ═══════════════════════════════════════════════════════════════════════════
@@ -771,7 +772,6 @@ strong {
 }
 
 .cta-title {
-    font-size: clamp(2.2rem, 5vw, 3.8rem);
     letter-spacing: -0.04em;
     line-height: 1.1;
     margin-bottom: 0.5rem;
@@ -827,7 +827,7 @@ strong {
 .page-content {
     flex: 1;
     padding: clamp(2rem, 6vw, 5rem) clamp(1.25rem, 5vw, 2.5rem);
-    max-width: 800px;
+    max-width: 1000px;
     margin-inline: auto;
     width: 100%;
 }
@@ -1082,9 +1082,7 @@ strong {
 }
 
 .languages-title {
-    font-size: clamp(1.5rem, 3.5vw, 2.8rem);
-    font-weight: 800;
-    margin-bottom: 40px;
+    margin-bottom: 1rem;
     letter-spacing: -0.03em;
 }
 
@@ -1124,6 +1122,11 @@ strong {
 /* ── Pricing Section ─────────────────────────────────────────────────────── */
 .pricing-section {
     padding: 80px 0;
+}
+
+.pricing-subtitle {
+    margin-top: 1.75rem !important;
+    margin-bottom: 60px !important;
 }
 
 .pricing-grid {
